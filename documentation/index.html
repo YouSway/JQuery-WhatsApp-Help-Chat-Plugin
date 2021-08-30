@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="images/favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+	<!-- googlefonts -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+	<!-- hamburgers css -->
+	<link href="plugins/hamburgers.css" rel="stylesheet">
+	<!-- highlight js -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.2/styles/default.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.2/styles/androidstudio.min.css" />
+	
+	<link rel="stylesheet" href="style.css" />
+    <title>Whelp Document</title>
+  </head>
+  <body data-spy="scroll" data-target="#mynavbar" data-offset="120">
+   
+<div class="main-wrapper">
+	<div class="toggle-menu" id="mynavbar">
+		<ul class="list-unstyled">
+			<li><a class="text-dark list-unstyled text-decoration-none nav-link" href="#home">Overview</a></li>
+			<li><a class="text-dark list-unstyled text-decoration-none nav-link" href="#include">Including Files</a></li>
+			<li><a class="text-dark list-unstyled text-decoration-none nav-link" href="#template1">Template 1</a></li>
+			<li><a class="text-dark list-unstyled text-decoration-none nav-link" href="#template2">Template 2</a></li>
+			<li><a class="text-dark list-unstyled text-decoration-none nav-link" href="#template3">Template 3</a></li>
+			<li><a class="text-dark list-unstyled text-decoration-none nav-link" href="#options">Options</a></li>
+		</ul>
+	</div>
+	<div class="container-fluid">
+		
+		<div class="row py-1 fixed-top" style="background-color:#bad7df">
+			<div class="col-12 ">
+				<button class="hamburger hamburger--collapse" type="button">
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
+				</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<h4 class="mb-3" id="home">Whelp Whatsapp Support Plugin</h4>
+				<div class="table-info p-3 rounded mb-5">
+					<p class="m-0">Thank you for purchasing this plugin. <br />
+					Have you need help please contact me <a class="text-decoration-none text-secondary" href="mailto:ideacodee@gmail.com">ideacodee@gmail.com</a>
+					</p>
+				</div>
+				<h5 id="include">Including files</h5>
+				<div class="table-active p-3 rounded mb-5">	
+These are all the files you need to import in your page so the plugin can work.				
+<pre><code class="html">&lt;head&gt;
+&lt;!-- Required meta tags --&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;
+&lt;link rel=&quot;icon&quot; href=&quot;images/favicon.ico&quot;&gt;
+&lt;!-- Bootstrap CSS --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css&quot; integrity=&quot;sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh&quot; crossorigin=&quot;anonymous&quot;&gt;
+&lt;!-- fontawesome --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css&quot; /&gt;
+&lt;!-- googlefonts --&gt;
+&lt;link href=&quot;https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;!-- animatecss --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;plugins/animate.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;whelp.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  
+&lt;!-- jQuery first, then Popper.js, then Bootstrap JS --&gt;
+&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js&quot; integrity=&quot;sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js&quot; integrity=&quot;sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+&lt;!-- momentjs --&gt;
+&lt;script src=&quot;plugins/moment.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;plugins/moment-with-locales.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;plugins/moment-timezone-with-data-10-year-range.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;whelp.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+			<p>This Plugin support Bootstrap 4 latest version</p>
+				</div>
+				<h5 id="template1">HTML | Fixed Bottom Template - 1</h5>
+				<img src="images/template1.jpg" alt="" class="img-fluid" />
+				<div class="table-active p-3 rounded mb-5">
+				<p>Notice where you specify the phone number <code>data-number</code> and the availability. If you don't specify the <code>data-time</code> attribute then the plugin will always show it offline!</p>
+<pre><code class="html">&lt;!-- template 1 start --&gt;
+&lt;div class=&quot;wsc&quot; id=&quot;template-1&quot;&gt;
+	&lt;div class=&quot;wsc-label&quot;&gt;
+		Questions? Let's Chat
+	&lt;/div&gt;
+	&lt;div class=&quot;wsc-circle&quot;&gt;
+		&lt;i class=&quot;fab fa-whatsapp&quot;&gt;&lt;/i&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;wsc-box&quot; class=&quot;fast&quot; &gt;
+		&lt;div class=&quot;wsc-close&quot;&gt;&lt;i class=&quot;fas fa-times&quot;&gt;&lt;/i&gt;&lt;/div&gt;
+		&lt;div class=&quot;wsc-header&quot;&gt;
+			&lt;strong&gt;Need Help? Chat with us&lt;/strong&gt;
+			&lt;div class=&quot;wsc-description&quot;&gt;Contact one of our team&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;wsc-container&quot;&gt;
+			&lt;div class=&quot;wsc-item&quot; data-number=&quot;+905536384964&quot; data-time='{ &quot;Monday&quot;:&quot;08:30-18:30&quot;, &quot;tuesday&quot;:&quot;08:30-18:30&quot;, &quot;wednesday&quot;:&quot;08:30-18:30&quot;, &quot;thursday&quot;:&quot;08:30-18:30&quot;, &quot;friday&quot;:&quot;08:30-18:30&quot;, &quot;sunday&quot;:&quot;08:30-24:00&quot; }' data-text=&quot;Hello, How Can I Help You?&quot; &gt;
+				&lt;div class=&quot;position-relative&quot;&gt;
+					&lt;img src=&quot;images/person_5.jpg&quot; alt=&quot;...&quot; /&gt;
+					&lt;svg width=&quot;63px&quot; height=&quot;63px&quot; viewBox=&quot;0 0 63 63&quot;&gt;
+					&lt;circle cx=&quot;31.5&quot; cy=&quot;31.5&quot; r=&quot;30&quot;/&gt;
+					&lt;/svg&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;wsc-content&quot;&gt;
+					&lt;div class=&quot;wsc-name&quot;&gt;John Doe&lt;/div&gt;
+					&lt;div class=&quot;wsc-desc&quot;&gt;Sales Support&lt;/div&gt;
+					&lt;div class=&quot;wsc-stat&quot;&gt;Online&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;wsc-item&quot; data-number=&quot;+905536384964&quot; data-time='{ &quot;Monday&quot;:&quot;08:30-18:30&quot;, &quot;tuesday&quot;:&quot;08:30-18:30&quot;, &quot;wednesday&quot;:&quot;08:30-18:30&quot;, &quot;thursday&quot;:&quot;08:30-18:30&quot;, &quot;friday&quot;:&quot;08:30-18:30&quot; }' data-text=&quot;Hello, How Can I Help You?&quot;&gt;
+				&lt;div class=&quot;position-relative&quot;&gt;
+					&lt;img src=&quot;images/person_6.jpg&quot; alt=&quot;...&quot; /&gt;
+					&lt;svg width=&quot;63px&quot; height=&quot;63px&quot; viewBox=&quot;0 0 63 63&quot;&gt;
+					&lt;circle cx=&quot;31.5&quot; cy=&quot;31.5&quot; r=&quot;30&quot;/&gt;
+					&lt;/svg&gt;
+				&lt;/div&gt;	
+				&lt;div class=&quot;wsc-content&quot;&gt;
+					&lt;div class=&quot;wsc-name&quot;&gt;David Maxwell&lt;/div&gt;
+					&lt;div class=&quot;wsc-desc&quot;&gt;Customer Support&lt;/div&gt;
+					&lt;div class=&quot;wsc-stat&quot;&gt;Online&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;wsc-item&quot;&gt;
+				&lt;div class=&quot;position-relative&quot;&gt;
+					&lt;img src=&quot;images/person_7.jpg&quot; alt=&quot;...&quot; /&gt;
+					&lt;svg width=&quot;63px&quot; height=&quot;63px&quot; viewBox=&quot;0 0 63 63&quot;&gt;
+					&lt;circle cx=&quot;31.5&quot; cy=&quot;31.5&quot; r=&quot;30&quot;/&gt;
+					&lt;/svg&gt;
+				&lt;/div&gt;	
+				&lt;div class=&quot;wsc-content&quot;&gt;
+					&lt;div class=&quot;wsc-name&quot;&gt;Jack Doe&lt;/div&gt;
+					&lt;div class=&quot;wsc-desc&quot;&gt;Techincal Support&lt;/div&gt;
+					&lt;div class=&quot;wsc-stat bg-warning&quot;&gt;Offline&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- template 1 end --&gt;</code></pre>	
+				</div>			
+				<h5 id="template2">HTML | Fixed Bottom Template - 2</h5>
+				<img src="images/template2.jpg" alt="" class="img-fluid" />
+				<div class="table-active p-3 rounded mb-5">
+				<p><code>#wsc-box</code> element class <code>fast, faster, slow or slower</code> you can set animation speed for the all templates</p>
+<pre><code class="html">&lt;!-- template 2 start --&gt;
+&lt;div class=&quot;wsc&quot; id=&quot;template-2&quot;&gt;
+	&lt;div class=&quot;wsc-label&quot;&gt;
+		Questions? Let's Chat
+	&lt;/div&gt;
+	&lt;div class=&quot;wsc-circle&quot;&gt;
+		&lt;i class=&quot;fab fa-whatsapp&quot;&gt;&lt;/i&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;wsc-box&quot; class=&quot;fast&quot; &gt;
+		&lt;div class=&quot;wsc-close&quot;&gt;&lt;i class=&quot;fas fa-times&quot;&gt;&lt;/i&gt;&lt;/div&gt;
+		&lt;div class=&quot;wsc-header-single&quot;&gt;
+			&lt;div class=&quot;wsc-avatar&quot;&gt;
+				&lt;img src=&quot;images/person_5.jpg&quot; alt=&quot;&quot; /&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;wsc-content text-left&quot;&gt;
+				&lt;div class=&quot;wsc-name text-light&quot;&gt;Jack Doe&lt;/div&gt;
+				&lt;div class=&quot;wsc-desc text-light&quot;&gt;Techincal Support&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;wsc-text&quot;&gt;
+			&lt;div class=&quot;wsc-message&quot;&gt;
+				Hello, how can we help you? &lt;br /&gt;
+				Send &lt;span class=&quot;badge badge-success&quot;&gt;5&lt;/span&gt; and list services.
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;wsc-container p-0&quot;&gt;
+			&lt;div class=&quot;wsc-chat&quot; data-number=&quot;+905536384964&quot;&gt;
+				&lt;div class=&quot;input-group&quot;&gt;
+					&lt;input type=&quot;text&quot; class=&quot;form-control rounded-0 border-0&quot; placeholder=&quot;Say something!&quot;/&gt;
+					&lt;div class=&quot;input-group-append&quot;&gt;
+						&lt;div class=&quot;btn btn btn-link rounded-0&quot; id=&quot;send&quot;&gt;&lt;i class=&quot;fas fa-play text-dark&quot;&gt;&lt;/i&gt;&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- template 2 end --&gt;</code></pre>				
+				</div>
+				<h5 id="template3">HTML | Fixed Bottom Template - 3</h5>
+				<img src="images/template3.jpg" alt="" class="img-fluid" />
+				<div class="table-active p-3 rounded mb-5">
+<pre><code class="html">&lt;!-- template 3 start --&gt;
+&lt;div class=&quot;wsc&quot; id=&quot;template-3&quot;&gt;
+	&lt;div class=&quot;wsc-circle&quot;&gt;
+		&lt;img src=&quot;images/burger.png&quot; width=&quot;36&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;wsc-box&quot; class=&quot;fast&quot; &gt;
+		&lt;div class=&quot;wsc-close&quot;&gt;&lt;i class=&quot;fas fa-times&quot;&gt;&lt;/i&gt;&lt;/div&gt;
+		&lt;div class=&quot;wsc-header-red&quot;&gt;
+			&lt;div class=&quot;wsc-content text-left&quot;&gt;
+				&lt;div class=&quot;wsc-name text-light&quot;&gt;Order Now&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;wsc-text text-center&quot;&gt;
+			&lt;img src=&quot;images/food.png&quot; alt=&quot;...&quot; /&gt;
+			&lt;img src=&quot;images/food1.png&quot; alt=&quot;...&quot; /&gt;
+			&lt;img src=&quot;images/food2.png&quot; alt=&quot;...&quot; /&gt;
+			&lt;img src=&quot;images/food3.png&quot; alt=&quot;...&quot; /&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;wsc-container p-0&quot;&gt;
+			&lt;div class=&quot;wsc-chat&quot; data-number=&quot;+905536384964&quot;&gt;
+				&lt;div class=&quot;input-group&quot;&gt;
+					&lt;input type=&quot;text&quot; class=&quot;form-control rounded-0 border-0&quot; placeholder=&quot;Select Number!&quot;/&gt;
+					&lt;div class=&quot;input-group-append&quot;&gt;
+						&lt;div class=&quot;btn btn btn-link rounded-0&quot; id=&quot;send&quot;&gt;&lt;i class=&quot;fas fa-play text-dark&quot;&gt;&lt;/i&gt;&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- template 3 end --&gt;
+</code></pre>				
+				</div>
+				<h5 id="options">Initialization and Config</h5>
+				<div class="table-active p-3 rounded mb-5">
+				<p>You can state default values</p>
+<pre><code class="js">/* default values start */
+var url = window.location.href; 
+var defaults= {
+	OnlineMsg  : &quot;Online&quot;,
+	OfflineMsg : &quot;Offilne&quot;,
+	SendMsg    : &quot;Hi, I have some questions about this page: &quot;+url+&quot;&quot;,
+	effectIn   : &quot;fadeInUp&quot;,
+	effectOut  : &quot;fadeOutRight&quot;
+}
+/* default values end */
+</code></pre>
+				<p>Please write codes in Document Ready Event like in examples</p>
+				</div>
+				<div class="table-active p-3 rounded mb-5">
+				<p>Sending message or default value to whatsapp contact phone</p>
+<pre><code class="js">/* whatsapp goLink start */
+var goLink=&quot;&quot;;
+$(&quot;.wsc-item&quot;).click(function(){
+	if(!$(this).hasClass(&quot;disabled&quot;)){
+		var phone   = $(this).attr(&quot;data-number&quot;);
+		var SendMsg = $(this).attr(&quot;data-text&quot;) == null ? defaults.SendMsg:$(this).attr(&quot;data-text&quot;);
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+			goLink = &quot;https://api.whatsapp.com/send?phone=&quot;+phone+&quot;&amp;text=&quot;+SendMsg;
+		}else {
+			goLink = &quot;https://web.whatsapp.com/send?phone=&quot;+phone+&quot;&amp;text=&quot;+SendMsg;
+		}
+		window.open(goLink, &quot;_blank&quot;).focus();
+	}
+});
+
+$(&quot;#send&quot;).click(function(){
+	var phone   = $(this).parent().parent().parent().attr(&quot;data-number&quot;);
+	var SendMsg = $(this).parent().parent().find(&quot;:input&quot;).val();
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		goLink = &quot;https://api.whatsapp.com/send?phone=&quot;+phone+&quot;&amp;text=&quot;+SendMsg;
+	}else {
+		goLink = &quot;https://web.whatsapp.com/send?phone=&quot;+phone+&quot;&amp;text=&quot;+SendMsg;
+	}
+	window.open(goLink, &quot;_blank&quot;).focus();
+});
+/* whatsapp goLink end */				
+</code></pre>
+				</div>
+				<div class="table-active p-3 rounded mb-5">
+				<p>Checking Available times</p>
+<pre><code class="js">/* Available times start */
+var today=moment().format(&quot;dddd&quot;);
+var now= moment();
+$(&quot;.wsc-item&quot;).each(function(){
+	var data_time=$(this).attr(&quot;data-time&quot;);
+	if(data_time!=null){
+		data_json=JSON.parse(data_time);
+		if(match_times(data_json)==true){
+			$(this).find(&quot;.wsc-stat&quot;).text(&quot;Online&quot;);
+		}else {
+			$(this).find(&quot;.wsc-stat&quot;).text(defaults.OfflineMsg).addClass(&quot;bg-warning&quot;);
+			$(this).addClass(&quot;disabled&quot;);
+		}
+	}else {
+		$(this).find(&quot;.wsc-stat&quot;).text(defaults.OfflineMsg).addClass(&quot;bg-warning&quot;);
+		$(this).addClass(&quot;disabled&quot;);
+	}
+});
+
+function match_times(data) {
+	for(var i in data){
+		if(today == moment().day(i).format(&quot;dddd&quot;)){
+			var time_start = moment($.trim(data[i].split(&quot;-&quot;)[0]), &quot;HH:mm&quot;),
+				time_end = moment($.trim(data[i].split(&quot;-&quot;)[1]), &quot;HH:mm&quot;);
+				if(now.isAfter(time_start) &amp;&amp; now.isBefore(time_end)){
+					return true;
+				}
+		}
+		
+	}
+}
+/* Available times end */
+</code></pre>					
+				</div>
+				<div class="table-active p-3 rounded mb-5">
+				<p>effecIn and effectOut variables you can select from animate css plugin anyone effect for default config</p>
+<pre><code class="js">/* Whelp animations Start */
+$(&quot;.wsc-circle&quot;).click(function(e){
+	e.preventDefault();
+	var test = $(this).next(&quot;#wsc-box&quot;);
+	
+	if(test.hasClass('show')) {
+		testAnim(defaults.effectOut,&quot;&quot;,test);
+	}else{
+		test.addClass('show');
+		testAnim(defaults.effectIn,&quot;goster&quot;,test);
+	}
+});
+$(&quot;.wsc-close&quot;).click(function(){
+	var test = $(this).parent('#wsc-box');
+	testAnim(defaults.effectOut,&quot;&quot;,test);
+});
+
+function testAnim(x,durum,temp) {
+	$(temp).addClass(x + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+		if(durum==&quot;goster&quot;){
+			$(this).removeClass(x + ' animated');
+		}else {
+			$(this).removeClass(x + ' animated show');
+		}
+	});
+	if(temp.find(&quot;.wsc-chat&quot;).length &amp;&amp; durum==&quot;goster&quot;){
+		temp.find(&quot;.wsc-chat&quot;).find(&quot;:input&quot;).focus();
+	}
+};
+/* Whelp animations End */
+</code></pre>				
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<!-- highlightjs -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.2/highlight.min.js"></script>
+	<!-- smooth scroll -->
+	<script src="plugins/smooth-scroll.polyfills.min.js"></script>
+	
+	<script src="main.js"></script>
+  </body>
+</html>

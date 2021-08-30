@@ -1,0 +1,54 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	height:2200px;
+}
+pre,p {
+	margin:0;
+	padding:0;
+}
+.row.py-1.fixed-top {
+	margin-left:220px;
+	transition:.3s;
+}
+.row.py-1.fixed-top + .row {
+	padding-top:65px;
+}
+.main-wrapper {
+	display:flex;
+	overflow:hidden;
+}
+.toggle-menu {
+	width: 220px;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+	height:100%;
+	background-color: #f1f1f1;
+	transition:.3s;
+}
+.main-wrapper.active .toggle-menu {
+	transform:translateX(-100%);
+}
+.toggle-menu ul li a {
+	padding:10px;
+	display:block;
+}
+.toggle-menu ul li:hover{
+	background-color:#ccc;
+}
+.toggle-menu ul li a.active {
+	background-color:#ccc;
+}
+.main-wrapper > .container-fluid {
+	padding-left: 230px;
+	transition:.3s;
+}
+.main-wrapper.active > .container-fluid {
+	padding-left:10px;
+}
+.hamburger {
+	background-color:#f6f6f6;
+}
+button:focus {
+	outline:0;
+}
